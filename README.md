@@ -2,7 +2,15 @@ This mini project is to showcase how machine learning/deep learning learn patter
 
 **Project Description**: Stock prediction using deep learning model Long-short term memory (LSTM) and ML Models linear regressions and random forest.
 
-**Feature Selected**: Adjusted Close, Highest price in a day, lowest price in a day, starting price of a day, 'RSI', 'EMA20', 'EMA100', 'EMA150'
+**Feature Selected**: 
+  - Adj Close: Adjusted closing price based on dividens and stock-split 
+  - High: Highest price in a day
+  - Low: Lowest price in a day
+  - Open: First trade's price of a day
+  - Relative Strength Index (RSI)
+  - Exponential Moving Average 20 days (EMA20): Short-term trend
+  - Exponential Moving Average 100 days (EMA100): Mid-term trend
+  - Exponential Moving Average 150 days (EMA150): Long-term trend
 
 **Target**: Price changes of a day (Adjusted Close - Open)
 
